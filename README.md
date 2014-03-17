@@ -1,4 +1,4 @@
-riocognized-website
+Riocognized-Website
 ===================
 
 LynxLabs Rio'cognized Website
