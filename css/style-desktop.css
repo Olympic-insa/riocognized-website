@@ -274,7 +274,7 @@
 
 		.homepage #header-wrapper
 		{
-			height: 573px;
+			height: 473px;
 		}
 
 	#intro-wrapper
@@ -294,7 +294,7 @@
 
 		.homepage #header
 		{
-			height: 573px;
+			height: 473px;
 		}
 
 /*********************************************************************************/
@@ -304,8 +304,8 @@
 	#logo
 	{
 		position: absolute;
-		height: 8em;
-		top: 40%;
+		height: 10em;
+		top: 35%;
 		left: 0;
 		width: 100%;
 		text-align: center;
