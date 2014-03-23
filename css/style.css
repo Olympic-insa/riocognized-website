@@ -1119,6 +1119,10 @@
 
 	#logo
 	{
+        background-image: url(../images/logo-white.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size:contain;
 	}
 	
 		#logo h1
