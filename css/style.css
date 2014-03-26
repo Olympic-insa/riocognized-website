@@ -982,7 +982,7 @@
 		#footer-wrapper hr
 		{
 			border-top-color: #333;
-			border-top-color: rgba(255,255,255,0.05);
+			border-top-color: rgfaba(255,255,255,0.05);
 		}
 
 		#footer-wrapper form

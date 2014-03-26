@@ -92,3 +92,66 @@
 	{
 		margin: 3em 0 0 0;
 	}
+/*********************************************************************************/
+/* Avatar                                                                   */
+/*********************************************************************************/
+.avatar-list
+	{
+	}
+
+		.avatar-list section
+		{
+			padding-top: 2em;
+			border-top: solid 1px #eee;
+		}
+
+		.avatar-list .row
+		{
+            vertical-align: middle;
+		}
+	
+			.avatar-list .row:first-child
+			{
+			}
+			
+				.avatar-list .row:first-child section
+				{
+					padding-top: 0;
+					border-top: 0;
+				}
+
+		.avatar-list h3
+		{
+			margin: 0 0 0.75em 4em;
+			font-size: 1.15em;
+			letter-spacing: 0.05em;
+			margin-top: -0.35em;
+		}
+	
+		.avatar-list p
+		{
+			margin: 0 0 0 4em;
+            text-align: justify;
+		}
+		
+		.avatar-list-small
+		{
+		}
+		
+			.avatar-list-small h3
+			{
+			}
+		
+				.avatar-list-small h3:before
+				{
+					font-size: 24px;
+					line-height: 45px;
+					width: 45px;
+					height: 45px;
+					margin-right: 1em;
+				}
+				
+			.avatar-list-small p
+			{
+				margin: 0 0 0 4em;
+			}

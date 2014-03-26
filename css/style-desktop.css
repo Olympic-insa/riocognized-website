@@ -600,7 +600,7 @@
 
 	#copyright
 	{
-		margin: 6em 0 0 0;
+		margin: 3em 0 0 0;
 	}
 	
 		#copyright span
@@ -609,3 +609,68 @@
 			line-height: 1em;
 			font-size: 0.8em;
 		}
+
+
+/*********************************************************************************/
+/* Avatar                                                                   */
+/*********************************************************************************/
+.avatar-list
+	{
+	}
+
+		.avatar-list section
+		{
+			padding-top: 2em;
+			border-top: solid 1px #eee;
+		}
+
+		.avatar-list .row
+		{
+            padding-top: 2em;
+		}
+	
+			.avatar-list .row:first-child
+			{
+			}
+			
+				.avatar-list .row:first-child section
+				{
+					padding-top: 0;
+					border-top: 0;
+				}
+
+		.avatar-list h3
+		{
+			margin: 0 0 0.75em 2em;
+			font-size: 1.15em;
+			letter-spacing: 0.05em;
+			margin-top: -0.35em;
+		}
+	
+		.avatar-list p
+		{
+			margin: 0 0 0 3em;
+            text-align: justify;
+		}
+		
+		.avatar-list-small
+		{
+		}
+		
+			.avatar-list-small h3
+			{
+			}
+		
+				.avatar-list-small h3:before
+				{
+					font-size: 24px;
+					line-height: 45px;
+					width: 45px;
+					height: 45px;
+					margin-right: 1em;
+				}
+				
+			.avatar-list-small p
+			{
+				margin: 0 0 0 4em;
+			}

@@ -431,3 +431,44 @@
 			padding: 1.5em 4em 1.5em 4em;
 			line-height: 1.5em;
 		}
+
+/*********************************************************************************/
+/* Avatar                                                                   */
+/*********************************************************************************/
+
+.avatar-list
+	{
+	}
+
+		.avatar-list section
+		{
+			border-top: solid 1px #eee;
+		}
+		.avatar-list .row
+		{
+			text-align: center;
+		}
+		.avatar-list .2u
+		{
+            text-align: center;
+			padding: 4px 5px 0 4px;
+			line-height: 1.25em;$
+		}
+		.avatar-list h3
+		{
+			position:relative;
+            text-align: center;
+			padding: 4px 0 0 12px;
+			line-height: 1.25em;$
+		}
+
+			.avatar-list h3:before
+			{
+
+			}
+	
+		.avatar-list p
+		{
+			margin: 0 0 0 12px;
+            text-align: justify;
+		}
