@@ -147,6 +147,7 @@
 		.feature-list p
 		{
 			margin: 0 0 0 5em;
+            text-align: justify;
 		}
 		
 		.feature-list-small
@@ -616,6 +617,7 @@
 /*********************************************************************************/
 .avatar-list
 	{
+        margin-left: 5em;
 	}
 
 		.avatar-list section
