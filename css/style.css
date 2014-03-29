@@ -1164,10 +1164,11 @@
 				color: inherit;
 				text-decoration: none;
 			}
+        #intro .style3
+        {
+            text-align: justify;
+        }
 		
-		#intro .style3
-		{
-		}
 		
 /*********************************************************************************/
 /* Highlights                                                                    */

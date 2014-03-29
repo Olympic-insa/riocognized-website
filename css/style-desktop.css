@@ -471,7 +471,15 @@
 			font-size: 1.1em;
 			width: 48em;
 			margin: 0 auto;
+            padding-top: 2em;
+            padding-left: 8em;
 		}
+
+        #intro img
+        {
+            float: left;
+            margin-left:8em
+        }
 
 /*********************************************************************************/
 /* Features                                                                      */
