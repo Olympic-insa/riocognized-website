@@ -961,6 +961,8 @@
 	
 	#footer-wrapper
 	{
+        padding-bottom: 1em;
+        padding-top: 1em;
 		background: #282b34 url('images/overlay.png');
 		color: #eee;
 		color: rgba(255,255,255,0.5);
