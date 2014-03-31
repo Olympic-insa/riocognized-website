@@ -934,12 +934,7 @@
 			right: -35px;
 			width: 35px;
 			height: 38px;
-			background: url('images/shadow.png');
-			-moz-transform: scaleX(-1);
-			-webkit-transform: scaleX(-1);
-			-o-transform: scaleX(-1);
-			-ms-transform: scaleX(-1);
-			transform: scaleX(-1);
+			background: url('images/shadowr.png');
     	}
 
 	#header-wrapper
