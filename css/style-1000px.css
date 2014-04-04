@@ -168,6 +168,7 @@ video
 			letter-spacing: 0.05em;
 			margin-top: -0.35em;
 		}
+
 	
 		.avatar-list p
 		{
@@ -193,6 +194,81 @@ video
 				}
 				
 			.avatar-list-small p
+			{
+				margin: 0 0 0 4em;
+			}
+/*********************************************************************************/
+/* Page                                                                   */
+/*********************************************************************************/
+.page
+	{
+	}
+        .page img
+        {
+            float: left;
+            margin-left:2em;
+            width:150px;
+        }
+		.page section
+		{
+			padding-top: 2em;
+			border-top: solid 1px #eee;
+		}
+
+		.page .row
+		{
+            vertical-align: middle;
+		}
+	
+			.page .row:first-child
+			{
+			}
+			
+				.page .row:first-child section
+				{
+					padding-top: 0;
+					border-top: 0;
+				}
+
+		.page h3
+		{
+			margin: 0 0 0.75em 0em;
+			font-size: 1.15em;
+			letter-spacing: 0.05em;
+			margin-top: -0.35em;
+		}
+
+        .page h2
+		{
+			margin: 0 0 0.75em 0em;
+			font-size: 2em;
+			letter-spacing: 0.05em;
+			margin-top: -0.35em;
+		}
+		.page p
+		{
+			margin: 0 0 0 00em;
+            text-align: justify;
+		}
+		
+		.page-small
+		{
+		}
+		
+			.page-small h3
+			{
+			}
+		
+				.page-small h3:before
+				{
+					font-size: 24px;
+					line-height: 45px;
+					width: 45px;
+					height: 45px;
+					margin-right: 1em;
+				}
+				
+			.page-small p
 			{
 				margin: 0 0 0 4em;
 			}

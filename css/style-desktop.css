@@ -28,7 +28,7 @@
 
 	header.style1
 	{
-		padding: 0 0 3em 0;
+		padding: 0 0 1em 0;
 	}
 
 		header.style1 h2
@@ -642,6 +642,7 @@ video
     width: 960px;
     height: 620px;
     margin-top: 0;
+}
 /*********************************************************************************/
 /* Avatar                                                                   */
 /*********************************************************************************/
@@ -673,6 +674,7 @@ video
 
 		.avatar-list h3
 		{
+            
 			margin: 0 0 0.75em 2em;
 			font-size: 1.15em;
 			letter-spacing: 0.05em;
@@ -703,6 +705,85 @@ video
 				}
 				
 			.avatar-list-small p
+			{
+				margin: 0 0 0 4em;
+			}
+/*********************************************************************************/
+/* Page                                                                */
+/*********************************************************************************/  
+.page
+	{
+        margin-right: 2em;
+	}
+
+		.page section
+		{
+			padding-top: 2em;
+			border-top: solid 1px #eee;
+		}
+
+        .page img
+        {
+            float: left;
+            margin-left:1em;
+            width:200px;
+        }
+
+		.page .row
+		{
+            padding-top: 2em;
+		}
+	
+			.page .row:first-child
+			{
+			}
+			
+				.page .row:first-child section
+				{
+					padding-top: 0;
+					border-top: 0;
+				}
+
+		.page h3
+		{
+			margin: 0 0 0.75em 2em;
+			font-size: 1.15em;
+			letter-spacing: 0.05em;
+			margin-top: -0.35em;
+		}
+    
+        .page h2
+		{
+			margin: 0 0 0.75em 1.5em;
+			font-size: 2em;
+			letter-spacing: 0.05em;
+			margin-top: -0.35em;
+		}
+	
+		.page p
+		{
+			margin: 0 0 0 3em;
+            text-align: justify;
+		}
+		
+		.page-small
+		{
+		}
+		
+			.page-small h3
+			{
+			}
+		
+				.page-small h3:before
+				{
+					font-size: 24px;
+					line-height: 45px;
+					width: 45px;
+					height: 45px;
+					margin-right: 1em;
+				}
+				
+			.page-small p
 			{
 				margin: 0 0 0 4em;
 			}
