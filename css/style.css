@@ -56,7 +56,7 @@
 		-o-transition: color .25s ease-in-out;
 		-ms-transition: color .25s ease-in-out;
 		transition: color .25s ease-in-out;
-	}
+	}font-weight: 700;
 	
 		a:hover
 		{
