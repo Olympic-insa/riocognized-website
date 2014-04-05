@@ -9,6 +9,7 @@
     <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic,700,900" rel="stylesheet" />
     <!--[if lte IE 8]><script src="js/html5shiv.js"></script><link rel="stylesheet" href="css/ie8.css" /><![endif]-->
     <script src="js/jquery.min.js"></script>
+    <script src="js/contact.js"></script>
     <script src="js/jquery.dropotron.min.js"></script>
     <script src="js/config.js"></script>
     <script src="js/skel.min.js"></script>
@@ -97,21 +98,22 @@
 
                                     <!-- Contact Form -->
                                     <section class="footer-one">
-                                        <form method="post" action="#">
+                                        <form method="post" action="process.php" id="contact">
                                             <div>
                                                 <div class="row half">
                                                     <div class="6u">
-                                                        <input type="text" class="text" name="name" id="contact-name" placeholder="Nom" />
+                                                        <input type="text" class="text" name="name" id="name" placeholder="Nom" />
                                                     </div>
                                                     <div class="6u">
-                                                        <input type="text" class="text" name="name" id="contact-email" placeholder="Email" />
+                                                        <input type="email" class="text" name="email" id="email" placeholder="Email" />
                                                     </div>
                                                 </div>
                                                 <div class="row half">
                                                     <div class="12u">
-                                                        <textarea name="message" id="contact-message" placeholder="Message"></textarea>
+                                                        <textarea name="message" id="message" placeholder="Message"></textarea>
                                                     </div>
                                                 </div>
+                                                <span id="msg_all"></span> 
                                                 <div class="row">
                                                     <div class="12u">
                                                         <ul class="actions">
@@ -126,6 +128,7 @@
                                                 </div>
                                             </div>
                                         </form>
+                                        
                                     </section>
                                     <!-- /Contact Form -->
 
@@ -190,5 +193,4 @@
     <!-- /Main Wrapper -->
     <!-- /Main Wrapper -->
 </body>
-
 </html>
