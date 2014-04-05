@@ -245,6 +245,11 @@ video
 			letter-spacing: 0.05em;
 			margin-top: -0.35em;
 		}
+	   .page h5 
+        {
+            margin-left: 0;
+            display: inline;
+        }
 		.page p
 		{
 			margin: 0 0 0 00em;

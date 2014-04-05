@@ -9,7 +9,7 @@
 		line-height: 1.75em;
 		letter-spacing: 0.025em;
 	}
-
+        
 	body
 	{
 		min-width: 1200px;
@@ -759,7 +759,11 @@ video
 			letter-spacing: 0.05em;
 			margin-top: -0.35em;
 		}
-	
+		.page h5 
+        {
+            margin-left: 3em;
+            display: inline;
+        }
 		.page p
 		{
 			margin: 0 0 0 3em;

@@ -521,7 +521,6 @@ video
             padding-top: 1em;
 			text-align: center;
 		}
-
 		.page .2u
 		{
             text-align: center;
@@ -545,4 +544,10 @@ video
 		{
 			margin: 0 0 12px 12px;
             text-align: justify;
+		}
+		.page h5
+		{
+			margin: 0 0 12px 12px;
+            text-align: justify;
+            display: inline;
 		}
