@@ -143,6 +143,30 @@
             text-align: justify;
 		}
 
+		.feature-list3 h3
+		{
+			position: relative;
+			padding: 4px 0 0 50px;
+			line-height: 1.25em;
+		}
+
+			.feature-list3 h3:before
+			{
+				position: absolute;
+				left: 0;
+				top: 0;
+				width: 25px;
+				height: 25px;
+				line-height: 25px;
+				font-size: 15px;
+			}
+	
+		.feature-list3 p
+		{
+			margin: 0px 0px 0 10px;
+            text-align: justify;
+		}
+
 	.is-post-excerpt
 	{
 	}

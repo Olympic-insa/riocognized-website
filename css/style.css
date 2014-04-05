@@ -445,6 +445,11 @@
 		{
 			color: #FFFFFF !important;
 		}
+
+		.feature-list3 h3
+		{
+			color: #3F3F3F !important;
+		}
 		
 			.feature-list h3:before
 			{
@@ -464,6 +469,16 @@
 				border-radius: 1em;
 				text-align: center;
 			}
+			.feature-list3 h3:before
+			{
+				position: relative;
+				display: inline-block;
+				color: #fff;
+				background: #BF3826 url('images/overlay.png');
+				border-radius: 1em;
+				text-align: center;
+			}
+
 
 /*********************************************************************************/
 /* Icons                                                                         */
@@ -475,6 +490,10 @@
 	{
 		text-decoration: none;
 	}
+    .fa-small 
+    {
+        margin-right: 15px;
+    }
 
 		.fa.solo
 		{
