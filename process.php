@@ -40,13 +40,10 @@
     $contenu      = "Nom de l'expéditeur : " . $nom . "\r\n";
     $contenu     .= $message."\r\n\n";
     $contenu     .= "Adresse IP de l'expéditeur : " . $ip . "\r\n";
-    $contenu     .= "DLSAM : " . $hostname;
+    $contenu     .= "DLSAM : " . $hostname. "\r\n";
+    $contenu     .= "Mail : " . $email;
   
-    $headers  = 'From: ' . $email . ' \r\n'; // ici l'expediteur du mail
-    $headers .= 'Content-Type: text/plain; charset="ISO-8859-1"; DelSp="Yes"; format=flowed \r\n';
-    $headers .= 'Content-Disposition: inline \r\n';
-    $headers .= 'Content-Transfer-Encoding: 7bit \r\n';
-    $headers .= 'MIME-Version: 1.0';
+    $headers      = "From: ".$nom." <".$email.">\r\nReply-To: ".$email."";
      
  
     // SI LES CHAMPS SONT MAL REMPLIS
