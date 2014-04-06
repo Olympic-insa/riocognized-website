@@ -81,8 +81,7 @@
                     <div id="main">
                         <header class="style1">
                             <h2>Convaincu ?</h2>
-                            <p class="byline">Vous souhaitez obtenir plus d'informations sur notre Startup-up et notre produit.
-                                <br>N'hésitez pas à nous contacter !
+                            <p class="byline">Vous souhaitez travailler avec nous ?
                             </p>
                         </header>
                     </div>
@@ -102,18 +101,37 @@
                                             <div>
                                                 <div class="row half">
                                                     <div class="6u">
-                                                        <input type="text" class="text" name="name" id="name" placeholder="Nom" />
+                                                        <input type="text" required="true" class="text" name="name" id="name" placeholder="Nom" />
                                                     </div>
                                                     <div class="6u">
-                                                        <input type="email" class="text" name="email" id="email" placeholder="Email" />
+                                                        <input type="text" required="true" class="text" name="prenom" id="prenom" placeholder="Prénom" />
+                                                    </div>
+                                                </div>
+                                                <div class="row half">
+                                                    <div class="6u">
+                                                        <input type="text" class="text" name="societe" id="societe" placeholder="Société" />
+                                                    </div>
+                                                    <div class="6u">
+                                                        <input type="email" required="true" class="text" name="email" id="email" placeholder="Email" />
                                                     </div>
                                                 </div>
                                                 <div class="row half">
                                                     <div class="12u">
-                                                        <textarea name="message" id="message" placeholder="Message"></textarea>
+                                                        <select name="connu" id="connu">
+                                                            <option value="" selected disabled>Comment avez vous connu Lynxlabs ?</option>
+                                                            <option value="internet">Par Internet</option>
+                                                            <option value="ami">Le conseill d'un ami</option>
+                                                            <option value="presse">Dans la presse écrite</option>
+                                                            <option value="télévision">A la télévision</option>
+                                                        </select>
                                                     </div>
                                                 </div>
-                                                <span id="msg_all"></span> 
+                                                <div class="row half">
+                                                    <div class="12u">
+                                                        <textarea name="message" required="true" id="message" placeholder="Message"></textarea>
+                                                    </div>
+                                                </div>
+                                                <span id="msg_all"></span>
                                                 <div class="row">
                                                     <div class="12u">
                                                         <ul class="actions">
@@ -121,14 +139,14 @@
                                                                 <input type="submit" class="button button-style1" value="Envoyer" />
                                                             </li>
                                                             <li>
-                                                                <input type="reset" class="button button-style2" value="Reset" />
+                                                                <input type="reset" id="reset" class="button button-style2" value="Reset" />
                                                             </li>
                                                         </ul>
                                                     </div>
                                                 </div>
                                             </div>
                                         </form>
-                                        
+
                                     </section>
                                     <!-- /Contact Form -->
 
@@ -150,10 +168,13 @@
                                                         </section>
                                                     </div>
                                                     <div class="6u">
-                                                        <h3 class="fa fa-comment fa-small"> Réseaux Sociaux</h3>
-                                                        <p><i class="fa fa-facebook fa-small"></i> Facebook
-                                                            <br><i class="fa fa-twitter fa-small"></i> Twitter
-                                                            <br><i class="fa fa-google-plus fa-small"></i> Google Plus
+                                                        <h3 class="fa fa-comment fa-small">Réseaux Sociaux</h3>
+                                                        <p>
+                                                            <i class="fa fa-facebook fa-small"></i>Facebook
+                                                            <br>
+                                                            <i class="fa fa-twitter fa-small"></i>Twitter
+                                                            <br>
+                                                            <i class="fa fa-google-plus fa-small"></i>Google Plus
                                                         </p>
                                                     </div>
                                                 </div>
@@ -193,4 +214,5 @@
     <!-- /Main Wrapper -->
     <!-- /Main Wrapper -->
 </body>
+
 </html>

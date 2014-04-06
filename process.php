@@ -21,23 +21,44 @@
         $email = '';
     endif;
   
-    // CONDITIONS MESSAGE
+    // CONDITIONS PRENOM
+    if ( (isset($_POST['prenom'])) && (strlen(trim($_POST['prenom'])) > 0) ):
+        $prenom = stripslashes(strip_tags($_POST['prenom']));
+    else:
+        echo "Merci d'écrire un message<br />";
+        $prenom = '';
+    endif;
+    // SOCIETE
+    if ( (isset($_POST['societe'])) && (strlen(trim($_POST['societe'])) > 0) ):
+        $societe = stripslashes(strip_tags($_POST['societe']));
+    else:
+        $societe = '';
+    endif;
+
+    if ( (isset($_POST['connu'])) && (strlen(trim($_POST['connu'])) > 0) ):
+        $connu = stripslashes(strip_tags($_POST['connu']));
+    else:
+        $connu = '';
+    endif;
+
     if ( (isset($_POST['message'])) && (strlen(trim($_POST['message'])) > 0) ):
         $message = stripslashes(strip_tags($_POST['message']));
     else:
-        echo "Merci d'écrire un message<br />";
         $message = '';
     endif;
-  
+
     // Les messages d'erreurs ci-dessus s'afficheront si Javascript est désactivé
  
  
     // PREPARATION DES DONNEES
     $ip           = $_SERVER['REMOTE_ADDR'];
     $hostname     = gethostbyaddr($_SERVER['REMOTE_ADDR']);
-    $destinataire = "alexisd61@gmail.com";
+    $destinataire = "alexis24@free.fr";
     $objet        = "[LynxLabs]";
     $contenu      = "Nom de l'expéditeur : " . $nom . "\r\n";
+    $contenu     .= "Prénom de l'expéditeur : " . $prenom . "\r\n";
+    $contenu     .= "Société de l'expéditeur : " . $societe . "\r\n";
+    $contenu     .= "Comment nous a t-il connu: " . $connu . "\r\n";
     $contenu     .= $message."\r\n\n";
     $contenu     .= "Adresse IP de l'expéditeur : " . $ip . "\r\n";
     $contenu     .= "DLSAM : " . $hostname. "\r\n";

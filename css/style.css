@@ -175,6 +175,7 @@
 			form input.text:hover,
 			form select:hover,
 			form textarea:hover
+            form select:hover
 			{
 			}
 
@@ -195,7 +196,7 @@
 				color: #555 !important;
 				font-style: italic;
 			}
-
+            
 			form ::-webkit-input-placeholder
 			{
 				color: #555 !important;
@@ -224,6 +225,18 @@
 			{
 				border: 0;
 			}
+
+            select option:first-child 
+            { color: #555 !important;
+				font-style: italic; 
+            }
+            select.empty 
+            { 
+                color: #555 !important;
+				font-style: italic;
+            }
+            /* Hidden placeholder */
+            select option[disabled]:first-child { display: none; }
 
 	.nobr
 	{
