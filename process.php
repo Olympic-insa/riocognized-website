@@ -1,6 +1,4 @@
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <?php
- 
     // CONDITIONS NOM
     if ( (isset($_POST['name'])) && (strlen(trim($_POST['name'])) > 0) ):
         $nom = stripslashes(strip_tags($_POST['name']));
@@ -8,7 +6,6 @@
         echo "Merci d'écrire un nom <br />";
         $nom = '';
     endif;
- 
   
     // CONDITIONS EMAIL
     if ( (isset($_POST['email'])) && (strlen(trim($_POST['email'])) > 0) && (filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)) ):
@@ -65,7 +62,6 @@
     $contenu     .= "Mail : " . $email;
   
     $headers      = "From: ".$nom." <".$email.">\r\nReply-To: ".$email."";
-     
  
     // SI LES CHAMPS SONT MAL REMPLIS
     if ( (empty($nom)) && (empty($email)) && (!filter_var($email, FILTER_VALIDATE_EMAIL)) && (empty($message)) ):
@@ -73,8 +69,7 @@
     // ENCAPSULATION DES DONNEES 
     else:
         mail($destinataire,$objet,utf8_decode($contenu),$headers);
-        echo 'Formulaire envoyé';
+        echo "SEND";
     endif;
  
-    // Les messages d'erreurs ci-dessus s'afficheront si Javascript est désactivé
 ?>
