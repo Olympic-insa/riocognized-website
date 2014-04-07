@@ -535,6 +535,11 @@ video
 .page
 	{
 	}
+        .page li 
+        {
+            text-align: left;
+            margin-left: 2em;
+        }
 
 		.page section
 		{
@@ -564,7 +569,11 @@ video
 			{
 
 			}
-	
+	        .page p img
+        {
+            float:none;
+            width:100%;
+        }
 		.page p
 		{
 			margin: 0 0 12px 12px;
@@ -576,3 +585,9 @@ video
             text-align: justify;
             display: inline;
 		}
+        .page img
+        {
+            
+            margin-left:0em;
+            width:150px;
+        }

@@ -732,10 +732,15 @@ video
         .page img
         {
             float: left;
-            margin-left:1em;
+            margin-left:4em;
             width:200px;
         }
-
+        .page p img
+        {
+            float:none;
+            margin-left:2em;
+            width:800px;
+        }
 		.page .row
 		{
             padding-top: 2em;

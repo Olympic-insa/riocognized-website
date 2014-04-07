@@ -259,7 +259,12 @@ video
 			margin: 0 0 0 00em;
             text-align: justify;
 		}
-		
+		.page p img
+        {
+            float:none;
+            margin-left:5em;
+            width:600px;
+        }
 		.page-small
 		{
 		}
