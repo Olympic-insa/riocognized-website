@@ -116,7 +116,7 @@
                                 <div class="row">
                                     <div class="12u">
                                         <h2>La technique derrière tout ça</h2>
-                                        <p>Une application telle que Rio’cognized doit pouvoir répondre à plusieurs contraintes techniques majeures :
+                                        <p>Rio’cognized répond à plusieurs contraintes techniques majeures :
                                         </p>
                                     </div>
                                 </div>
@@ -125,14 +125,14 @@
                                         <section style="padding-top:0px">
                                             <h3 class="fa fa-group">Scalabilité</h3>
                                             <p>
-                                                <br>D’une part, compte tenu de la taille de l’évènement auquel elle s’adresse (10 millions de visiteurs attendus aux Jeux de Rio), Rio’cognized doit pouvoir être utilisée simultanement par plusieurs milliers de personnes.</p>
+                                                <br>D’une part, compte tenu de la taille de l’évènement auquel elle s’adresse (10 millions de visiteurs attendus aux Jeux de Rio), Rio’cognized peut être utilisée simultanement par plusieurs milliers de personnes.</p>
                                         </section>
                                     </div>
                                     <div class="6u">
                                         <section style="padding-top:0px">
                                             <h3 class="fa fa-signal">Performance</h3>
                                             <p>
-                                                <br>D’autre part, compte-tenu du nombre d’athlètes présents sur les lieux (environ 6000), Rio’cognized doit pouvoir être suffisamment performante pour présenter un résultat pertinent en un temps réduit.
+                                                <br>D’autre part, compte-tenu du nombre d’athlètes présents sur les lieux (environ 6000), Rio’cognized est suffisamment performante pour présenter un résultat pertinent en un temps réduit.
                                             </p>
                                         </section>
                                     </div>
@@ -140,30 +140,28 @@
                                 <div class="row">
                                     <div class="12u">
 
-                                        <p>Pour répondre à ces contraintes, nous avons choisi pour <b>Rio’cognized</b> une architecture <b>client/serveur</b> hebergée dans le <b>Cloud</b>, minimisant ainsi la charge de travail de l’application qui se contente d’envoyer une photographie à notre <b>plateforme</b>. Celle-ci se charge alors du traitement et renvoit le résultat à l’application.</p><br>
-<p>
-                                    <img src="images/archi.png">
+                                        <p>Pour répondre à ces contraintes, nous avons choisi une architecture <b>client/serveur</b> hebergée dans le <b>Cloud</b>, minimisant ainsi la charge de travail de l’application qui se contente d’envoyer une photographie à notre <b>plateforme</b>. Celle-ci se charge alors du traitement et renvoit le résultat à l’application.</p><br>
+                                        <p>
+                                            <img src="images/archi.png">
 
-    </p><br>
+                                        </p><br>
                                         <p>Sur le plan plus particulier de la reconnaissance faciale, le principe est le suivant : </p>
                                             <li><b>Détecter</b> un visage sur l’image reçue</li>
                                             <li><b>Comparer</b> ce visage avec les images de la base de données</li>
                                             <li><b>Identifier</b> le bon athlète et le renvoyer à l’application</li>
                                         <br>
                                         <p>Pour la réalisation de ces étapes, nous travaillons avec la librairie <b>OpenCV</b>, qui met à disposition un ensemble de fonctions clef du traitement d’images. On peut citer pour exemple l'algorithme de <b>Viola et Jones</b> pour la detectection de visage, ainsi que la méthode des <b>Eigenfaces</b>, utilisée pour reconnaître les athlètes.</p>
-                                        </section>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                    </section>
+                        </section>
+                    </div>
                     <!-- /Page-->
                 </div>
                 <!-- /Main -->
 
             </div>
         </div>
-    </div>
     </div>
     <div id="footer-wrapper" class="wrapper" style="padding-top:10px">
         <div id="footer">
