@@ -498,23 +498,23 @@ video
 		}
 		.avatar-list .row
 		{
-            border-top: 1px solid white;
-            padding-top: 1em;
+                        border-top: 1px solid white;
+                        padding-top: 1em;
 			text-align: center;
 		}
 
-		.avatar-list .2u
+		.avatar-list
 		{
-            text-align: center;
+                        text-align: center;
 			padding: 4px 5px 0 4px;
-			line-height: 1.25em;$
+			line-height: 1.25em;
 		}
 		.avatar-list h3
 		{
 			position:relative;
-            text-align: center;
+                        text-align: center;
 			padding: 4px 0 0 12px;
-			line-height: 1.25em;$
+			line-height: 1.25em;
 		}
 
 			.avatar-list h3:before
@@ -551,18 +551,12 @@ video
             padding-top: 1em;
 			text-align: center;
 		}
-		.page .2u
-		{
-            text-align: center;
-			padding: 4px 5px 0 4px;
-			line-height: 1.25em;$
-		}
 		.page h3
 		{
 			position:relative;
-            text-align: center;
+                        text-align: center;
 			padding: 4px 0 0 12px;
-			line-height: 1.25em;$
+			line-height: 1.25em;
 		}
 
 			.page h3:before
@@ -570,24 +564,24 @@ video
 
 			}
 	        .page p img
-        {
-            float:none;
-            width:100%;
-        }
+                {
+                        float:none;
+                        width:100%;
+                }
 		.page p
 		{
 			margin: 0 0 12px 12px;
-            text-align: justify;
+                        text-align: justify;
 		}
 		.page h5
 		{
 			margin: 0 0 12px 12px;
-            text-align: justify;
-            display: inline;
+                        text-align: justify;
+                        display: inline;
 		}
         .page img
         {
             
-            margin-left:0em;
-            width:150px;
+                margin-left:0em;
+                width:150px;
         }
